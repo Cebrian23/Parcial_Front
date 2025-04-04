@@ -1,0 +1,1 @@
+import { PageProps } from "$fresh/server.ts";
