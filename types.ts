@@ -18,6 +18,7 @@ export type CountryAPI = {
 //https://api.api-ninjas.com/v1/city?name=
 export type CapitalAPI = {
     name: string,
+    country: string,
     latitude: number,
     longitude: number,
 }
