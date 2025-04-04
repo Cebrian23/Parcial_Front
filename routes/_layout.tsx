@@ -1,11 +1,11 @@
 import { PageProps } from "$fresh/server.ts";
 import Footer from "../components/Footer.tsx";
-import Header from "../components/header.tsx";
+import Head from "../components/Head.tsx";
 
 const Layout = ({Component}: PageProps) => {
     return(
         <div class="layout">
-            <Header/>
+            <Head/>
             <div>
                 <Component/>
             </div>
